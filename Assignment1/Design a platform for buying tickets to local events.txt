@@ -1,0 +1,133 @@
+Design a paltform for buying tickets to local events:
+ 
+A platform that hosts the details about the event
+Class:User 
+data:
+username
+address 
+muliple events like art/music/dance shows
+ticket tab
+Date of the event
+no of tickets
+price
+Time of the event
+checkout
+order summary and confirmation
+contact info
+address
+credit card details
+place order
+
+public class user{
+
+public static void main(String[] args){
+
+Boolean authentication;
+int tickets;
+float totalcost;
+String name;
+String address;
+String regcontactnumber;
+
+Boolean authenticated=user.logintoApp(App,userid,password)
+if (authentication is valid)
+{
+       userresponse response=App.senduserOTPtotheregisteredphonenumber()
+If response is valid
+        {userresponse response=enter the OTP()
+}
+else{Reeneter the details
+}
+User.Applogin=User.place(address)
+User.search=Seattle.events()
+
+while(address=Seattle && time=user.selecttime)
+{
+System.out.Println("You have following events on that particular time in Seattle");
+//if user wants to book
+price.event(livesinging)=---$;
+
+price.event(danceshow)=----$;
+price.event(artgalleryshow)=----$;
+
+if(select==yes)
+{
+int tickets=tickets;
+price=x;
+Totalprice=tickets*x;
+
+System.out.println("The total price of the tickets is:" +x);
+user.checkout();
+   buy the ticket using credit card()
+       entercreditcarddetails(accountnumber,validthroughdate,CVV)
+Boolean authenticated=creditcarddetails
+if authentication is vaild{
+            confirm the ticket()
+
+System.out.println("Thank you.Please find the deatails of the ticket here");
+System.out.Println("Type of the event:"+ "Numberoftickets: "+"Totalpriceofthe tickets: "+"Address of the event: ");
+     Select .sendamessagetotheuserphone()
+
+}
+else
+{logout
+}
+------------------------------------------------------------------------
+Class: CreditCard
+Data: type, bankName, cardNumber, address, securityCode, expireDate
+Behaviour:
+cardAvailable() {
+Date currentDate = new Date();
+return currentDate.compareTo(expireDate);
+}
+-------------------------------------------------------------------------
+
+app end:
+
+show how many events are there
+status of the availabilty of tickets
+place/address
+no of tickets
+deals
+contact for the technical isues of the website
+
+
+public class app{
+public static void main( String[] args){
+
+//Enable the user to see multiple features of the app
+
+vaidatedetails deatils(userid,password)
+
+login(userName) {
+List<String> nameList;
+foreach(String name in nameList) {
+if(userName == name)
+status = true;
+}
+status = false;
+}
+match(userData) {List<T> info;
+
+info.add(user.Data);
+
+}
+End() {
+
+User.order = null
+
+System.out.println("Welcome to -----app");
+System.out.println("Select from the following events");
+System.out.println("Price of the events");
+Sytem.out.println("No.of.available tickets");
+user<creditcarddetails for processing the transaction>
+
+System.out.println("Thank you");
+
+}}
+
+
+
+
+
+
