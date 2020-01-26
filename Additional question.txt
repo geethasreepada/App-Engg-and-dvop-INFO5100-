@@ -1,0 +1,22 @@
+write your understanding here.
+	     Your Answer:
+	    */
+	    public static void main(String[] args) {
+	        Employee a = new Employee("Jenny", 20, Gender.FEMALE, 2000);
+	        Employee b = new Employee("John", 30, Gender.MALE, 2500);
+	        System.out.println("Before: a=" + a.getName());
+	        System.out.println("Before: b=" + b.getName());
+	        swap(a, b);//
+	        System.out.println("After: a=" + a.getName());
+	        System.out.println("After: b=" + b.getName());
+	    }
+	
+
+	    public static void swap(Employee x, Employee y) {
+	        Employee temp = x;
+	        x = y;
+	        y = temp;
+	    }
+
+Answer:I think theres no return value in the Swap method.
+So even when the Swap logic is correct,it did not give any change in the result.	}

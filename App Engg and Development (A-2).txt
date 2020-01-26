@@ -1,0 +1,12 @@
+public class Main {
+
+    public static void main(String[] args) {
+        String str = "elephant";
+        int counter = 0;
+        for( int i=0;i<=str.length()-1; i++){
+        if (str.charAt(i) == 'e'){
+            counter++;
+        }
+    }
+        System.out.println("No of' e 's in the word elephant is:"+ counter );
+    }}
