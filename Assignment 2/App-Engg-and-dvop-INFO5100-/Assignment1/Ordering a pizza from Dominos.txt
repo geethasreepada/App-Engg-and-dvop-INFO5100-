@@ -1,0 +1,61 @@
+Order Pizza from Dominos
+ 
+
+public class Dominos {
+ public static void main(String[] args) {
+int pizza;
+int Price;
+String name;
+int pizzaSize;
+String delivery;
+int toppings;
+String username;
+String user address;
+
+//User name and pizza rates for small ,medium and large
+
+String name=name.username;
+   
+  if (pizza == small){
+    Price = x;}
+  if (pizza == medium){  
+    Price = y ;}
+  if (pizza == Large){
+    pizzaPrice = z;
+}
+
+//Selecting toppings
+       
+                          
+while  (topping= x)
+
+{Total Cost= toppingprice +Price;
+}
+
+address registeredadress=user.registeredaddress;
+ //Billing
+
+acount useraccount=user.accountdetails
+
+
+//lace an order using credit card()
+       entercreditcarddetails(accountnumber,validthroughdate,CVV)
+Boolean authenticated=creditcarddetails
+if authentication is vaild{
+            confirm the order()
+System.out.println("Thank you.Your order is confirmed");
+            deliverthe pizzatotheregisteredaddress()
+            sendamessagetotheuserphone()
+}
+else{
+    reentercreditcarddetails(accountnumber,validthroughdate,CVV)
+    }
+      else
+           {end
+                 }
+                   
+}
+}
+
+}
+

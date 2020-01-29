@@ -1,0 +1,96 @@
+Design an app to book a doctor's appointment using your medical insurance provider
+
+Data required:
+login to the app
+when
+where 
+with
+insurance provider
+schdule apointment
+address of the user
+enter personal info
+insurance provider
+member id
+schedule a visit
+
+public class user[
+
+public static void main(String[] args){
+
+Boolean authenticated=user.logintoapp(app,userid,password)
+if (authentication is valid)
+{
+  user  login.account();
+}
+user.selecttime=time.appt;
+name nameofthe doctor=doctor;
+list.<select>insuranceprovider()=user.insurance;
+user.scheduleappt=appt(user,time,place,doctorname,insuranceprovider);
+
+if (scheduleappt=yes){
+
+user.enter<memberid();
+user=user.profile(user,memberid,address)
+
+memberid usermemberid=  Date();
+return currentDate.compareTo(Date);
+
+if (yes){
+
+user.scheduleanappt
+}
+else
+{<Reenter detais>
+}
+
+else{exit}
+}
+end}
+}
+
+
+---------------------------------------------------------
+
+public class :App
+public static void main(String[] args){
+int userid;
+String name;
+int insurancememberid;
+String insuranceprovider;
+
+System.out.println("Select the date and doctor")
+
+if(doctor=doctor.physician<available>)
+{
+print<available>
+
+
+else
+{
+<check for another;>
+}
+
+memberid usermemberid=  Date();
+return currentDate.compareTo(Date);
+if (yes)
+{
+
+System.out.printlnSchedule an appointment");
+
+}
+else
+{
+System.out.println("Details not matching");
+System.out.println("Reenter the details");
+
+memberid usermemberid=  Date();
+return Date.compareTo(Date);
+if (yes){
+
+System.out.println("Your appoinment is scheduled");
+}
+else
+{end
+}
+}
+}

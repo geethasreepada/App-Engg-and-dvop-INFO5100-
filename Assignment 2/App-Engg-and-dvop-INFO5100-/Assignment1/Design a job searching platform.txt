@@ -1,0 +1,124 @@
+Design a job searching platform:
+
+
+//considering the job searching platform as an App
+Class:User/Applicant profile:
+Data:username
+address
+skills known
+experience
+salary package
+previous/current company
+position
+
+
+
+public class user{
+public static void main(String[] args){
+
+String name;
+int experience;
+float salary;
+String companyname;
+
+//User ( using it as an app)
+loginApp()
+{
+App.login(username,password);}
+
+//creating profile in the app:
+
+System.out.println("Enter your address");
+
+//User.address=address. --------;
+
+System.out.println("Enter your skills");
+
+//User.skills =skills.------;
+
+System.out.println("Tell us how many years of work experience do you have?")
+//User.experience=----yrs;
+
+System.out.Println("Tell us the exected package");
+System.out.Println("Tell us your current position to enhance the suitable recommendations in your feed");
+
+//Searching for different companies like amazon and microsoft(eg):
+
+User.searchavailablepositions in microsoft=Microsoft.availablepositions;
+
+//Search for (softwareengineering )positions------//This could be any required position.
+
+while(Microsoft.positions available){
+check.salary();
+check.experience();
+check.skillsrequired();
+
+//check if they match the criteria of the user
+
+User.info=info;
+Employer.info=info;
+
+if(yes)
+{
+
+Resume upload=user.resume;
+Click.apply;
+}
+else
+{
+Search again;
+
+}}
+//If user wants to conract the employer:
+The engine should be able to show the names using keywords typed:
+
+for eg:
+micr
+engine should show all the company names with ,micro and employers names also the same concept
+
+
+Employer:-
+
+Class:Employer
+Data:username
+address
+skills known
+experience
+salary package
+previous/current company
+position
+
+ public class Employer{
+public static void main(String[] args){
+
+findApplicant(Profile) {
+List<Applicant> ApplicantList;
+
+while(
+
+employer.Searchapplicants=Applicants.profile){
+
+if(Applicants.profile!=requirements of the employer)
+{
+
+Search=Search.anotherapplicant;
+}
+
+else
+{employer.schedule interview with the applicant;
+
+}
+}
+
+Searchengine app:
+
+public class Searchengineapp{
+SearchApplicant/Employer{
+AnyuserAPI.search(profile)
+
+(Application is stored in a server,local or non local depending in the space)
+App=Server.App
+//
+
+
+

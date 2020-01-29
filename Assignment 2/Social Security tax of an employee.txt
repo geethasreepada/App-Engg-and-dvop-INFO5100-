@@ -1,0 +1,26 @@
+Social Security tax of an employee based on the salary:
+
+
+
+public class Tax {
+    public static void main(String[] args) {
+        double Salary = 34000;
+        double tax = SocialSecurityTax(34000);
+        System.out.println("Social Security Tax of an employee with salary 34000 is:" + tax);
+    }
+
+    //If the salary is less than or equal to 8900, the Social Security Tax is 6.2% of the salary.
+    //	     * If the salary is more than 8900, the Social Security Tax is 6.2% of 106,800.
+    public static double SocialSecurityTax(double Salary) {
+        double result=0;
+        if (Salary <= 8900) {
+            result = (6.2 * 8900) / 100;
+        }
+        result = (6.2 * 106800) / 100;
+        return result;
+    }
+
+}
+
+
+

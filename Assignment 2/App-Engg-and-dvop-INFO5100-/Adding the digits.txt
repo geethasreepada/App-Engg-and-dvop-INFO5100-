@@ -1,0 +1,27 @@
+Adding the digits:
+
+public class Addingthedigits {
+    static int Sum(int n) {
+        if (n == 0) {
+            n = Sum(n);
+        } else if (n > 9) {
+            n = n % 9;
+            n = Sum(n);
+
+        }
+        return n;
+    }
+
+    public static void main(String[] args) {
+        int n = 345;
+        System.out.println("Sum of the digits of 345 is: " + Sum(n));
+    }
+}
+
+
+
+
+
+
+
+
