@@ -37,10 +37,8 @@ public class Checkout {
         public void clear() {
             listOfItems.clear();
         }
-
-        //concatenate all the dessert items name using list
         public String toString(){
-            String billReceipt="\t"+DesertShoppe.nameOfStore+"\t\n\t"+"- - - - - - - - - -\n";
+            String billReceipt="\t"+DesertShoppe.nameOfStore+"\t\n\t"+"- - - - -  -\n";
             for(DesertItem list:listOfItems){
                 billReceipt=billReceipt+list.toString()+"\n";
             }
