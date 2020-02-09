@@ -14,7 +14,7 @@ public class Sundae extends Icecream {
         return this.cost+this.costOfTopping;
     }
 
-    public String toString(){		//Individual toString method for every Dessert item to define Price description and name
+    public String toString(){
         String cost = DesertShoppe.cents2dollarsAndCentsmethod(getCost());
         String nameToPrint = topping +" sundae with " + name;
         return DesertShoppe.printItemInReceipt(nameToPrint, cost);
