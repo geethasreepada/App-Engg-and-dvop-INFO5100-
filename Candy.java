@@ -1,11 +1,11 @@
 public class Candy extends DesertItem{
 
     private double weight;
-    private int pricePerPound;
-    public Candy(String itemName, double weight, int pricePerPound) {
+    private int priceperpound;
+    public Candy(String itemName, double weight, int priceperPound) {
         super(itemName);
         this.weight=weight;
-        this.pricePerPound=pricePerPound;
+        this.priceperPound=priceperPound;
     }
 
     public int getCost() {
@@ -17,7 +17,7 @@ public class Candy extends DesertItem{
 
     public String toString(){
 
-        String costDesc = weight+" lbs. @ "+DesertShoppe.cents2dollarsAndCentsmethod(pricePerPound)+" /lb " + "\n";
+        String costDesc = weight+" lbs. @ "+DesertShoppe.cents2dollarsAndCentsmethod(priceperpound)+" /lb " + "\n";
         String cost = DesertShoppe.cents2dollarsAndCentsmethod(getCost());
         String formattedName = DesertShoppe.printItemInReceipt(name, cost);
         return costDesc + formattedName;
